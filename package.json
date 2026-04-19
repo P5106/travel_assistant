@@ -1,0 +1,17 @@
+{
+  "name": "travel-chatbot",
+  "version": "1.0.0",
+  "description": "AI Travel Chatbot Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && node server.js\" \"cd frontend && npm start\"",
+    "backend": "cd backend && node server.js",
+    "frontend": "cd frontend && npm start"
+  },
+  "keywords": ["chatbot", "travel", "ai"],
+  "author": "Parboni Das",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
